@@ -7,7 +7,9 @@ module.exports = {
     };
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? "/portfolio/" : "",
+  assetPrefix: !debug
+    ? "https://mike-mg.github.io/portfolio/"
+    : "",
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
